@@ -1,22 +1,32 @@
 body {
   background-color: #c9b5ab;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-size: 0.8rem;
   line-height: 1.5;
+  font-weight: normal;
+  text-decoration: none;
 }
 
 h1, h2, h3, h4 {
   font-size: 1.5rem;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: #3f1622;
 }
 
 a:link {
   color: #8f2440;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
 }
 
 a:hover {
   color: #3f1622;
+}
+
+figcaption {
+  text-align: center;
+}
+
+ul {
+  list-style-type: lower-greek;
 }
