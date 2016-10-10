@@ -1,4 +1,4 @@
-body {
+html {
   background-color: #c9b5ab;
   font-family: "PT Serif", serif;
   font-size: 0.8rem;
@@ -7,20 +7,26 @@ body {
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+}
+
 h1, h2, h3, h4 {
   font-size: 1.5rem;
   font-family: "PT Sans", sans-serif;
   color: #3f1622;
 }
 
-a:link {
+a {
   color: #8f2440;
   font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
+  text-decoration: none;
 }
 
 a:hover {
   color: #3f1622;
+  text-decoration: underline;
 }
 
 figcaption {
